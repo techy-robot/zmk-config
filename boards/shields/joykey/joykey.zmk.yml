@@ -1,0 +1,24 @@
+file_format: "1"
+id: joykey
+name: JoyKey
+type: shield
+
+url: https://github.com/techy-robot/JoyKey
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
+features:
+  - keys
+  - studio
+  - display
+  - encoder
+  - underglow
+  - studio
+  - pointer
+
+# Interconnects keyboard requires
+requires:
+  - seeed_xiao
+# Interconnects keyboard provides
+exposes:
+  - i2c_oled

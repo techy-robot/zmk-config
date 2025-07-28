@@ -1,0 +1,2 @@
+config SHIELD_JOYKEY
+    def_bool $(shields_list_contains,joykey)

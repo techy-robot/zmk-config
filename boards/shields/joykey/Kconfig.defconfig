@@ -1,0 +1,6 @@
+if SHIELD_JOYKEY
+
+config ZMK_KEYBOARD_NAME
+    default "JoyKey"
+
+endif # SHIELD_JOYKEY
