@@ -7,7 +7,7 @@
     // Define a default keymap here.
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
     keymap {
-        compatible = "zmk,keymap,";
+        compatible = "zmk,keymap";
 
         default_layer {
             /* Layer 0 Base layer
