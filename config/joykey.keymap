@@ -20,7 +20,7 @@
             * |    .-------.    .-----------.-----------.-----------.   =            =
             * |  /    _ _    \  | SCRL_LEFT |  MOVE_UP  |SCRL_RIGHT |  =              =
             * | .  .''   ''.  . |           |           |           |  =      A       =
-            * | | (    K    ) | |-----------+-----------+-----------|   =            =
+            * | | (  unlock ) | |-----------+-----------+-----------|   =            =
             * | '  '.._ _..'  ' | MOVE_LEFT | MOVE_DOWN |MOVE_RIGHT |     =        = |
             * |  \           /  |           |           |           |        ~  ~    |
             * '    '-------'    '-----------'-----------'-----------'      SCRL_DOWN '
@@ -30,7 +30,7 @@
             bindings = <
 &mkp MB1                        &mkp MB2
 &msc SCRL_LEFT  &mmv MOVE_UP    &msc SCRL_RIGHT    &msc SCRL_UP
-&kp K                                              &mmv A
+&studio_unlock                                              &mmv A
 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &msc SCRL_DOWN
             >;
         };
