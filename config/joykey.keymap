@@ -34,5 +34,30 @@
 &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT    &msc SCRL_DOWN
             >;
         };
+
+        layer1 {
+            status = "reserved";
+        };
+
+        layer2 {
+            status = "reserved";
+        };
+        layer3 {
+            status = "reserved";
+        };
+
+        layer4 {
+            status = "reserved";
+        };
+        layer5 {
+            status = "reserved";
+        };
+
+        layer6 {
+            status = "reserved";
+        };
+        layer7 {
+            status = "reserved";
+        };
     };
 };
