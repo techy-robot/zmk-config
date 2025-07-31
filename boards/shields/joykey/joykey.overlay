@@ -24,13 +24,13 @@
             = <&xiao_d 9 GPIO_ACTIVE_HIGH>
             , <&xiao_d 7 GPIO_ACTIVE_HIGH>
             , <&xiao_d 8 GPIO_ACTIVE_HIGH>
-            , <&gpio0 9 GPIO_ACTIVE_HIGH>
+            , <&gpio0 10 GPIO_ACTIVE_HIGH>
             ; // The last one may be 9 or 10, depending on which NFC pin I used for digital. Also, these pins can be a max of 10khz
 
         row-gpios
             = <&xiao_d 2 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            , <&xiao_d 6 GPIO_ACTIVE_HIGH>
+            , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             ;
     };
 
