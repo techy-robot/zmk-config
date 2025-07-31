@@ -10,11 +10,11 @@ url: https://github.com/techy-robot/JoyKey
 features:
   - keys
   - studio
-  - display
-  - encoder
-  - underglow
-  - studio
   - pointer
+  # - display
+  # - encoder
+  # - underglow
+  # - studio
 
 # Interconnects keyboard requires
 requires:
