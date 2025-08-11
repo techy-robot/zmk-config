@@ -28,10 +28,10 @@
             ; // The last one may be 9 or 10, depending on which NFC pin I used for digital. Also, these pins can be a max of 10khz
 
         row-gpios
-            = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> unpopulated mic pin
+            = <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)> 
             , <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
             , <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-            ;
+            ; //gpio1 10 is an unpopulated mic pin
     };
 
     default_transform: default_transform {
