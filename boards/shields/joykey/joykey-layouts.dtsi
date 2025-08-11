@@ -28,4 +28,22 @@
             , <&key_physical_attrs  50  50  475  225       0     0     0>
             ;
     };
+
+    chosen {
+        zmk,battery = &vbatt;
+    };
+
+    // Node name must match original "EXT_POWER" label to preserve user settings.
+    EXT_POWER {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio1 0 GPIO_ACTIVE_LOW>;//unpopulated mic pin.
+        init-delay-ms = <50>;
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-voltage-divider";
+        io-channels = <&gpio0 28>;//xiao D2
+        output-ohms = <680000>;//lower leg 680K ohm
+        full-ohms = <(680000 + 1000000)>;//lower leg + upper leg(1M ohm)
+    };
 };
