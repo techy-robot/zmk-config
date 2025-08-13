@@ -29,6 +29,7 @@
             ;
     };
 
+    /*
     chosen {
         zmk,battery = &vbatt;
     };
@@ -46,4 +47,5 @@
         output-ohms = <680000>;//lower leg 680K ohm
         full-ohms = <(680000 + 1000000)>;//lower leg + upper leg(1M ohm)
     };
+    */
 };
