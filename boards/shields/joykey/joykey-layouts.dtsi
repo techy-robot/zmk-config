@@ -42,7 +42,7 @@
 
     vbatt: vbatt {
         compatible = "zmk,battery-voltage-divider";
-        io-channels = <&gpio0 28>;//xiao D2
+        io-channels = <&adc 4>;//xiao D2
         output-ohms = <680000>;//lower leg 680K ohm
         full-ohms = <(680000 + 1000000)>;//lower leg + upper leg(1M ohm)
     };
